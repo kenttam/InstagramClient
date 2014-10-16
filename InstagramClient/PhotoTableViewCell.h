@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhotoTableViewCell.h
 //  InstagramClient
 //
 //  Created by Kent Tam on 10/15/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PhotoTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *igImageView;
 
 @end
-
